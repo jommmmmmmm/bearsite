@@ -65,9 +65,11 @@ li a:hover
     width: 100%;
     position: relative;
     background-image: url(image/bg.jpg);
-    padding-top: 100px;
+    
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
+
   }
   .overlay
   {
@@ -78,6 +80,10 @@ li a:hover
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   .button
   {
