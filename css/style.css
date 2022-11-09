@@ -12,7 +12,7 @@ nav
 
 ul
 {
-    padding-left: 250px;
+    padding-left: 450px;
     margin: 0 0 0 250px;
     list-style: none;
 }
@@ -121,6 +121,7 @@ li a:hover
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
+    padding-top: 30px;
     margin: 0 auto;
   }
   .container
@@ -131,20 +132,18 @@ li a:hover
     justify-content: space-around;
 
   }
+  *
+  {
+    box-sizing: border-box;
+  }
   .one
   {
     width: 50%;
-    height: 30%;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 100px;
-    margin: 0 auto;
-    float: right;
+    padding: 20px;
+    height: 300px;
     background: black;
     color: beige;
-    text-align: left;
+    float: left;
   }
   .two
   {
@@ -157,9 +156,93 @@ li a:hover
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 10px;
     margin: 0 auto;
   }
-  
+  .containers:after
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .frm 
+  {
+    min-height:100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .forms
+  {
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0 0 0 0 .19);
+    border-radius: 10px;
+    min-width: 800px;
+    max-width: 100px;
+    min-height: 500px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(198, 231, 216);
+  }
+  .textsec
+  {
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    align-items: center;
+  }
+  .formed
+  {
+    width: 50%;
+    float:right;
+    padding-left: 50px;
+    color: beige;
+  }
+  .formz
+  {
+    background-color: black;
+    width: 250px;
+  }
+  .code
+  {
+    width: 50px;
+  }
+  .btns
+  {
+    background-color: gold;
+    color: beige;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .footer
+  {
+    width: 100%;
+    background-color: black;
+  }
+  .leftfoot
+  {
+    padding-left: 70px;
+    width: 50%;
+    float: left;
+    background-color: black;
+    color: white;
+  }
+  .rightfoot
+  {
+    width: 50%;
+    float: right;
+    background-color: black;
+    color: white;
+    padding-top: 29px;
+    text-align: right;
+    padding-bottom: 12px;
+    padding-right: 20px;
+  }
 
   
