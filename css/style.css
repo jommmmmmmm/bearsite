@@ -27,7 +27,7 @@ li a
     padding: 20px 15px;
     text-decoration: none ;
     font-family: arial;
-    color: beige;
+    color: #c9c4c4;
     text-align: center;
 }
 li a:hover
@@ -47,16 +47,16 @@ li a:hover
     width: 50px;  
   }  
   .fa-facebook {     
-    color: white;  
+    color: #c9c4c4;  
     font-size: 18px;
 
   }  
   .fa-twitter {   
-    color: white;
+    color: #c9c4c4;
     font-size: 18px;  
   }  
   .fa-youtube-play {   
-    color: white;  
+    color: #c9c4c4;  
     font-size: 18px;
   }  
   .background
@@ -88,7 +88,7 @@ li a:hover
   .button
   {
     background: black;
-    color: azure;
+    color: #c9c4c4;
   }
   .btn
   {
@@ -142,7 +142,7 @@ li a:hover
     padding: 20px;
     height: 300px;
     background: black;
-    color: beige;
+    color: #c9c4c4;
     float: left;
   }
   .two
@@ -150,7 +150,7 @@ li a:hover
     width: 50%;
     float: right;
     background: black;
-    color: beige;
+    color: #c9c4c4;
     height: 30%;
     font-size: 16px;
     display: flex;
@@ -162,14 +162,21 @@ li a:hover
   }
   .containers:after
   {
-    content: "";
+    min-height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containers:after
+  {
     display: table;
     clear: both;
   }
   .frm 
   {
     min-height:100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,13 +188,13 @@ li a:hover
     padding-bottom: 10px;
     box-shadow: 0 0 10px 0 rgba(0 0 0 0 .19);
     border-radius: 10px;
-    min-width: 800px;
+    min-width: 1000px;
     max-width: 100px;
     min-height: 500px;
     margin: 0 20px;
     display: flex;
     align-items: center;
-    background-color: rgb(198, 231, 216);
+    background-color: rgb(221, 228, 229);
   }
   .textsec
   {
@@ -201,23 +208,41 @@ li a:hover
     width: 50%;
     float:right;
     padding-left: 50px;
-    color: beige;
+    color: #c9c4c4;
   }
   .formz
   {
     background-color: black;
-    width: 250px;
+    width: 380px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .code
   {
-    width: 50px;
+    width: 70px;
+  }
+  .tname
+  {
+    width: 250px;
+    padding-left: 10px;
+  }
+  .intouch
+  {
+    text-align: center;
+    font-family: serif;
+    font-weight: 300;
   }
   .btns
   {
     background-color: gold;
-    color: beige;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    color: rgb(160, 149, 149);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+  }
+  .submitt
+  {
     text-align: center;
   }
   .footer
@@ -231,17 +256,17 @@ li a:hover
     width: 50%;
     float: left;
     background-color: black;
-    color: white;
+    color: gray;
   }
   .rightfoot
   {
     width: 50%;
     float: right;
     background-color: black;
-    color: white;
+    color: gray;
     padding-top: 29px;
     text-align: right;
-    padding-bottom: 12px;
+    padding-bottom: 13px;
     padding-right: 20px;
   }
 
