@@ -123,6 +123,7 @@ li a:hover
     padding-bottom: 100px;
     padding-top: 30px;
     margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .container
   {
@@ -144,7 +145,7 @@ li a:hover
     background: black;
     color: #c9c4c4;
     float: left;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .two
   {
@@ -204,6 +205,7 @@ li a:hover
     float: left;
     padding-left: 30px;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .formed
   {
@@ -219,6 +221,8 @@ li a:hover
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 400px;
+
   }
   .code
   {
@@ -229,11 +233,13 @@ li a:hover
     width: 250px;
     padding-left: 10px;
   }
-  .intouch
+  .getin
   {
-    font-family: serif;
+    font-family: cursive;
     text-align: left;
     padding-left: 90px;
+    font-weight: 500px;
+    font-size: large;
   }
   .btns
   {
@@ -242,10 +248,12 @@ li a:hover
     width: 120px;
     height: 40px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .submitt
   {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .footer
   {
