@@ -1,47 +1,46 @@
-body
-{
-    margin: 0;
-    padding: 0;
-}
-nav
-{
-    width: 100%;
-    overflow: auto;
-    background: black;
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-ul
-{
-    padding-left: 450px;
-    margin: 0 0 0 250px;
-    list-style: none;
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
 }
-li
-{
-    float : left;
+
+.navbar{
+	background-color: black;
+	color: white !important;
 }
-li a 
-{
-    width: 100px;
-    display: block;
-    padding: 20px 15px;
-    text-decoration: none ;
-    font-family: arial;
-    color: #c9c4c4;
-    text-align: center;
+
+.nav-item a{
+	color: white !important;
 }
-li a:hover
-{
-    background: gray;
+
+.nav-item{
+	padding-left: 2px;
 }
-.logo img
+
+.navbar-brand{
+	color: white !important;
+	padding-left: 100px;
+}
+
+.navbar-toggler
 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 100px;
+    background-color: rgb(51, 49, 49);
+}
+
+#navbar button{
+	color: white !important;
 }
 .fa {  
-    padding-top: 19px;  
+    margin-right: 0 !important;
+	padding-right: 5px; 
+    padding-top: 10px;
   text-align: center;   
     font-size: 30px;  
     width: 50px;  
@@ -58,20 +57,28 @@ li a:hover
   .fa-youtube-play {   
     color: #c9c4c4;  
     font-size: 18px;
-  }  
-  .background
+  }
+
+/* banner */
+
+#banner-container{
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+.background
   {
     height: 600px;
     width: 100%;
     position: relative;
     background-image: url(image/bg.jpg);
-    
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
 
   }
-  .overlay
+.overlay
   {
     width: 100%;
     height: 40%;
@@ -85,199 +92,101 @@ li a:hover
     left: 50%;
     transform: translate(-50%,-50%);
   }
-  .button
-  {
-    background: black;
-    color: #c9c4c4;
-  }
-  .btn
-  {
-    position: absolute;
+
+/*contact button*/
+#banner-row a{
+	background-color: black !important;
+	color: white !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: absolute;
     top: 50%;
     left: 45%;
-    background: black;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .left
-  {
-    width: 25%;
-    float: left;
-  }
-  .right
-  {
-    width: 25%;
-    float: right;
-  }
-  .mid
-  {
-    width: 50%;
-    height: 30%;
-    font-size: 16px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 100px;
-    padding-top: 30px;
-    margin: 0 auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .container
-  {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    
+}
+/*slicing*/
+.px-2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem
+}
+.fw-light
+{
+  padding-top: 50px;
+  font-size:larger ;
+}
+.lead
+{
+  font-size: large;
+}
+.col-lg-8
+{
+  padding-bottom: 100px;
+}
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+/* footer */
 
-  }
-  *
-  {
-    box-sizing: border-box;
-  }
-  .one
-  {
-    width: 50%;
-    padding: 50px;
-    height: 300px;
-    background: black;
-    color: #c9c4c4;
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .two
-  {
-    width: 50%;
-    float: right;
-    background: black;
-    color: #c9c4c4;
-    height: 30%;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-top: 10px;
-    margin: 0 auto;
-  }
-  .containers:after
-  {
-    min-height:100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  .containers:after
-  {
-    display: table;
-    clear: both;
-  }
-  .frm 
-  {
-    min-height:100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer
+{
+  width: 100%;
+  background-color: black;
+}
+.leftfoot
+{
+  padding-left: 70px;
+  width: 50%;
+  float: left;
+  background-color: black;
+  color: gray;
+  font-size: xx-small;
+}
+.rightfoot
+{
+  width: 50%;
+  float: right;
+  background-color: black;
+  color: gray;
+  padding-top: 29px;
+  text-align: right;
+  padding-bottom: 4px;
+  padding-right: 20px;
+  font-size: xx-small;
+}
 
-  }
-  .forms
-  {
-    width: 100%;
-    padding-bottom: 10px;
-    box-shadow: 0 0 10px 0 rgba(0 0 0 0 .19);
-    border-radius: 10px;
-    min-width: 1000px;
-    max-width: 100px;
-    min-height: 500px;
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(221, 228, 229);
-  }
-  .textsec
-  {
-    width: 50%;
-    float: left;
-    padding-left: 30px;
-    align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .formed
-  {
-    width: 50%;
-    float:right;
-    padding-left: 50px;
-    color: #c9c4c4;
-  }
-  .formz
-  {
-    background-color: black;
-    width: 380px;
-    padding-left: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 400px;
 
-  }
-  .code
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+
+.social-col{
+	width: 33%;
+}
+@media (max-width: 768px)
+{
+  .form
   {
-    width: 70px;
-  }
-  .tname
-  {
-    width: 250px;
-    padding-left: 10px;
-  }
-  .getin
-  {
-    font-family: cursive;
-    text-align: left;
-    padding-left: 90px;
-    font-weight: 500px;
-    font-size: large;
-  }
-  .btns
-  {
-    background-color: gold;
-    color: rgb(160, 149, 149);
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .submitt
-  {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .footer
-  {
-    width: 100%;
-    background-color: black;
-  }
-  .leftfoot
-  {
-    padding-left: 70px;
-    width: 50%;
-    float: left;
-    background-color: black;
-    color: gray;
-  }
-  .rightfoot
-  {
-    width: 50%;
-    float: right;
-    background-color: black;
-    color: gray;
-    padding-top: 29px;
-    text-align: right;
-    padding-bottom: 13px;
-    padding-right: 20px;
+    min-width: 280px;
+    overflow: auto;
   }
 
-  
+}
+
+@media (max-width: 768px)
+{
+  .containers
+  {
+   min-width: 280px;
+  }
+
+}}
