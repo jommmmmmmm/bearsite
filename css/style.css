@@ -349,6 +349,11 @@ button:focus:not(:focus-visible) {
   outline: 0;
 }
 
+.btns d-grid col-5 my-2:hover
+{
+  background-color: var(--bs-gray-700);
+}
+
 input,
 button,
 select,
@@ -1185,7 +1190,8 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 47%;
+    
   }
 
   .col-md-7 {
@@ -11333,12 +11339,13 @@ section {
   color: white;
 }
 .btns button{
-  height: 40px;
-  font-size: 11px;
-  font-weight: 500;
-  background: var(--bs-yellow);
-  width: 120px;
-  letter-spacing: 2px;
+    height: 50px;
+    width: 190px;
+    font-size: 13px;
+    font-weight: bolder;
+    background: var(--bs-warning);
+    border: none;
+    letter-spacing: 2px;
 }
 
 .formText {
