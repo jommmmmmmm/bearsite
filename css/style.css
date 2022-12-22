@@ -11338,6 +11338,10 @@ section {
   background: #111111;
   color: white;
 }
+.btnc button:hover
+{
+ background-color: gray;
+}
 .btns button{
     height: 50px;
     width: 190px;
